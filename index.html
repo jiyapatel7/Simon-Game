@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simon Game</title>
+
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Simon Game</h1>
+
+        <h2 id="message">Press Start to Play!</h2>
+
+        <p class="score">
+            Level: <span id="level">0</span>
+        </p>
+
+        <div class="game-board">
+            <button class="btn green" id="green"
+                aria-label="Green"></button>
+
+            <button class="btn red" id="red"
+                aria-label="Red"></button>
+
+            <button class="btn yellow" id="yellow"
+                aria-label="Yellow"></button>
+
+            <button class="btn blue" id="blue"
+                aria-label="Blue"></button>
+        </div>
+
+        <button id="start-btn">Start Game</button>
+
+        <p class="instructions">
+            Watch the sequence and repeat it!
+        </p>
+    </div>
+
+    <!-- Link JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
